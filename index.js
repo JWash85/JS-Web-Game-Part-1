@@ -19,12 +19,12 @@ newimage('assets/pillar.png','350px', '100px')
 newimage('assets/crate.png','150px', '200px')
 newimage('assets/well.png','500px', '425px')
 
-function newItem (a, b, c){
+function newItem (d, e, f){
     let sword = document.createElement('img')
-    sword.src = a
-    sword.position = 'fixed'
-    sword.left = b
-    sword.bottom = c
+    sword.src = d
+    sword.style.position = 'fixed'
+    sword.style.left = e
+    sword.style.bottom = f
     document.body.append(sword)
 
     sword.addEventListener('dblclick', function(){
